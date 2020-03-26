@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="45dp"
+        android:layout_marginTop="22sp"
+        android:layout_marginBottom="22sp"
+        android:text="@string/show" />
+
+    <EditText
+        android:id="@+id/inpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_inp"
+        android:textSize="26dp"
+        android:inputType="textPersonName"
+        android:text="@string/input" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/btn_label" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/result"
+        android:textSize="30sp" />
+
+</LinearLayout>
